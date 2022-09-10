@@ -1,0 +1,158 @@
+﻿/* the styles for the skins */
+
+
+footer a {
+    color: white;
+}
+
+.footer {text-align: center;
+    color: white;
+    background-color: none;
+    
+    height: auto;
+    position: absolute;
+    width: 100%;
+    margin-bottom: -100px;}
+
+footer { color: white;
+}
+
+.cart-number {
+    color: black; 
+    background-color: white; 
+    
+   
+    border: black 2px solid;}
+
+.mint {border: 15px ridge  cyan;
+ border-radius: 15px;}
+
+
+.black-square {background-color: black;
+                color: white;
+            
+   
+                border: ridge 10px white;
+                
+              
+             
+             border-radius: 15px;
+            text-align: center;}
+.black-square li {list-style-type: none;
+                    
+                    color: white;
+
+}
+.black-square a{color: white;
+                text-decoration: none;}
+
+.black-square a:hover{color: white;
+                    background-color: #7527df;
+                  
+                    }
+
+
+
+.purple-square {background-image: url(Images/bg2.bmp);
+                color: black;
+               
+                border: ridge 10px white;
+              
+             border-radius: 15px !important;
+           }
+
+
+
+
+.purple-square td { 
+                    color: white;
+                  
+                   
+}
+.purple-square a{color: white;
+              
+}
+
+.purple-square a:hover{color: white;
+                    background-color: #7527df;
+              
+                    }
+
+
+#lstCart { 
+
+    background-color: black;
+
+    color: white;
+   border: 10px white ridge; 
+   border-radius: 15px;
+ 
+}
+
+.encounter  { background-color: black;
+            
+              border: 10px white ridge;
+              border-radius: 15px;
+}
+
+
+.encounter p{
+ 
+  background-color:none;
+             color: white;
+
+}
+
+
+.button { background-color:#7527df;
+          color: white;
+           border-radius: 45px;
+      
+}
+
+.button2 { background-color:#9f92d7;
+          color: white;
+           border-radius: 45px;
+          
+}
+
+
+.controller {
+
+    background-color: #656275;
+
+   
+}
+
+body {  background-image: url(Images/bg2.bmp);
+        }
+
+
+
+.navigation {background-color: black;
+             border: none;
+}
+.navigation:hover {color: white;
+                    background-color: #7527df;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+}
+
+
+.button {
+        border-radius: 0;
+    background-color: black !important;
+            color: white !important;
+             border: none;
+}
+.button:hover {color:white;
+                    background-color: #7527df !important;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+}
+
+.button { background-color:#7527df;
+          color: white;
+           border-radius: 45px;
+      
+}

@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Checkout.master.cs" Inherits="Checkout" %>
+
+<!DOCTYPE html>
+<!--
+   COP2552 001: Object Oriented Programming 2
+   Final Project
+   Hotel
+
+   Author: Jay Rosen
+   Date: 12/10/2015
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Hotel CheckOut</title>
+      <!-- Stylesheets -->
+    <link href="Styles/bootstrap.min.css" rel="stylesheet"/>
+    <link href="Styles/agency.css" rel="stylesheet"/>
+     <link href="Styles/CheckOut.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="headPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+   <form id="form1" runat="server">
+   
+    <section>
+       
+            <asp:ContentPlaceHolder id="formPlaceHolder" runat="server">        
+            </asp:ContentPlaceHolder> 
+      
+    </section>   
+    
+    
+<footer class="footer" style="margin-left: 1%; top: 90%; position: fixed;"> 
+      
+   <!-- Footer containing copyright info -->
+        <div class="row">
+                <div class="col-md-4 ">
+                    <h3 style="font-size: 16px; text-align: left;">This website was created for a school project, <br />and is not affiliated with Nintendo, Shigesato Itoi, Ape Inc. or any other companies.</h3>
+                </div>
+                <div class="col-md-4 ">
+                    <h3><a href="http://earthbound.nintendo.com/" target="_blank">"Earthbound" &copy; 1994 Nintendo</a></h3>
+                </div>
+                <div class="col-md-4 ">
+                    <h3><a href="http://jayrosen.design" target="_blank">Web Design &copy; 2015 Jay Rosen </a></h3>
+                </div>
+        </div>
+
+    </footer> 
+        </form>    
+</body>
+</html>

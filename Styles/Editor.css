@@ -1,0 +1,314 @@
+﻿/*custom font */
+@font-face {
+  font-family: 'apple_kid';
+  src: 
+       url('../fonts/apple_kid.woff') format('woff'), 
+       url('../fonts/apple_kid.ttf')  format('truetype');   
+}
+
+@font-face {
+  font-family: 'fourside';
+  src: 
+       url('../fonts/fourside.woff') format('woff'), 
+       url('../fonts/fourside.ttf')  format('truetype');   
+}
+
+@font-face {
+  font-family: 'twoson';
+  src: 
+       url('../fonts/twoson.woff') format('woff'), 
+       url('../fonts/twoson.ttf')  format('truetype');   
+}
+
+@font-face {
+  font-family: 'name';
+  src: 
+       url('../fonts/year_is_199x.woff') format('woff'), 
+       url('../fonts/year_is_199x.ttf')  format('truetype');   
+}
+
+/* fullscreen image centered*/
+body {  background-image: url(../Images/database.gif);
+        }
+
+
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+/* black square properties*/
+.black-square {background-color: black;
+                color: white;
+                font-family: 'apple_kid';
+                width: 400px;
+                border: ridge 10px white;
+                
+               margin: 10px;
+                padding: 10px;
+             border-radius: 15px;
+            text-align: center;}
+.black-square li {list-style-type: none;
+                    
+                    color: white;
+
+}
+.black-square a{color: white;
+                text-decoration: none;}
+
+.black-square a:hover{color: white;
+                    background-color: #7527df;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    }
+
+
+footer {color: white;
+     font-family: 'apple_kid';
+     font-size: 2em;
+        position: absolute;
+        top: 80%;
+        text-align: center;
+        margin-left: 25%;
+        display: inline;
+        
+        }
+footer h3 {font-family: 'apple_kid';}
+
+.footer {text-align: center;
+    color: white;
+    background-color: none;
+    
+    height: auto;
+    position: absolute;
+    width: 100%;
+    margin-bottom: -100px;}
+
+    .social-footer li {display: inline-block;
+           list-style-type: none;
+           margin: .7em;
+          font-size: 18px;}
+
+
+footer a {
+    color: white;
+}
+
+#lblWelcome { font-size: 60px;
+              font-family: 'name';
+}
+
+
+#ValidationSummary1 {
+    background-color: black;
+    color: white;
+    border: white 2px solid;
+}
+
+
+label {
+    float: left;
+    text-align: right;
+    width: 8em;  
+}
+select {
+    margin-top: .5em;
+    margin-left: 1em;
+    width: 15em;
+}
+
+.entry{
+    margin-left: 1em;
+    margin-bottom: .5em;
+    width: 8em;
+     background-color: black;
+    color:white;
+}
+
+
+.validator {
+    font-size: 95%;
+    color: red;
+    margin-left: 1em;
+}
+
+
+#optionalData label {
+   width: auto;
+   margin-right: 1.5em;
+   margin-left: .25em;
+}
+#optionalData input {
+    float: left;
+}
+.button {
+    width: 3em;
+    background-color: black;
+    color: white;
+}
+
+#lbtnContinueShopping {color: white;
+}
+
+
+#lbtnContinueShopping a {color: white;
+}
+
+
+.button { background-color:#7527df;
+          color: white;
+           border-radius: 45px;
+}
+
+.input-buttons {
+    font-size: 80%;
+    margin-top: -60px;
+}
+
+
+.register {
+    
+    
+    width: 75%;
+   height: 90%;
+   
+
+}
+
+    .register p {
+        font-size: 36px;
+        display: inline;
+      
+    }
+
+
+
+
+
+h2 {color: white;
+        font-family: 'apple_kid';
+        font-size: 2em;
+        border-bottom: none;
+       
+}
+
+.entry { width: 200px;
+}
+
+#left { 
+       position: absolute;
+       top: 20px;
+        left: 20px;
+}
+
+
+#right {
+    position: absolute;
+    top: 20px;
+    margin-left: 860px;
+    
+   
+}
+#characters { z-index: 5;
+             
+}
+
+    #characters li {
+        display: inline;
+    }
+
+
+li {
+    display: inline;
+}
+
+.radio li {
+    margin: 60px;
+    font-size: 24px;
+}
+
+p { font-size: 2em !important;
+}
+
+.hint2 { display: none;
+}
+
+.center {position: absolute;
+         left: 650px;
+         top:200px;
+      
+}
+
+#nav-block { display: none;
+}
+
+.headerstyle { font-family: 'fourside';
+               font-size: 1.5em;
+}
+
+.rowstyle { font-family: 'apple_kid';
+               font-size: 2em;
+}
+
+/*animated text */
+.encounter  { background-color: black;
+              width: 700px;
+              border: 10px white ridge;
+              border-radius: 15px;
+}
+
+.encounter p{
+   margin-left: 20px;
+  font-size: 70px; 
+  background-color:none;
+             color: white;
+             
+             font-family: 'apple_kid';
+  white-space: nowrap;
+  overflow: hidden;
+ width: 500px;
+  animation: type 10s steps(70, end);
+}
+
+.encounter p:nth-child(2){
+  animation: type2 8s steps(70, end);
+}
+
+
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100%; } 
+} 
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+::selection{
+  background: black;
+}
+
+
+#music {position: absolute; 
+        top: 1000px;
+        left: 500px;
+}

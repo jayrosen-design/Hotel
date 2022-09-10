@@ -1,0 +1,196 @@
+/* custom font*/
+@font-face {
+  font-family: 'apple_kid';
+  src: 
+       url('../fonts/apple_kid.woff') format('woff'), 
+       url('../fonts/apple_kid.ttf')  format('truetype');   
+}
+
+@font-face {
+  font-family: 'fourside';
+  src: 
+       url('../fonts/fourside.woff') format('woff'), 
+       url('../fonts/fourside.ttf')  format('truetype');   
+}
+
+@font-face {
+  font-family: 'twoson';
+  src: 
+       url('../fonts/twoson.woff') format('woff'), 
+       url('../fonts/twoson.ttf')  format('truetype');   
+}
+
+@font-face {
+  font-family: 'name';
+  src: 
+       url('../fonts/year_is_199x.woff') format('woff'), 
+       url('../fonts/year_is_199x.ttf')  format('truetype');   
+}
+
+/* defualt body background*/
+body {  background-image: url(../Images/bg.bmp);
+        }
+
+
+/* navigation*/
+.nav {background-color: none;
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+       }
+
+
+/*defualt pages form */
+.home-content {position: fixed;
+   
+        background-repeat: no-repeat;
+        
+
+        height: 100%;
+        width: 100%;
+        }
+/* page's form placment*/
+.content {position: fixed;
+    background-image: url(../Images/room-select.png);
+        background-repeat: no-repeat;
+       
+
+        height: 100%;
+        width: 100%;
+        }
+
+
+/*prototype skin teme colors */
+.mint {border: 15px ridge  cyan;
+ border-radius: 15px;}
+
+.chocolate {border: 15px solid white;
+            max-width: 960px;
+         border-radius: 15px;}
+
+/*main black square properties for paragraph text */
+.black-square {background-color: black;
+                color: white;
+                font-family: 'apple_kid';
+     font-size: 2em;
+                border: ridge 10px white;
+                width: 50%;
+                margin: 0 auto;
+                padding: 25px;
+             border-radius: 15px;
+            text-align: center;}
+.black-square li {list-style-type: none;
+                    
+                    color: white;
+
+}
+.black-square a{color: white;
+                text-decoration: none;}
+
+.black-square a:hover{color: white;
+                    background-color: #7527df;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    }
+
+/*purple square for total price and quantity */
+
+.purple-square {background-image: url(../Images/bg2.bmp);
+                color: black;
+                font-family: 'apple_kid';
+     font-size: 2em;
+                border: ridge 10px white;
+                width: 50%;
+                margin: 0 auto;
+                padding: 25px;
+             border-radius: 15px;
+            text-align: center;}
+.purple-square li {list-style-type: none;
+                    margin: 10px;
+                    color: white;}
+.purple-square a{color: white;
+                text-decoration: none;}
+
+.purple-square a:hover{color: white;
+                    background-color: #7527df;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    }
+
+.cart-text {font-family: 'fourside';}
+
+.cart-number {font-family: 'apple_kid';
+    color: black; 
+    background-color: white; 
+    padding: 10px;
+    margin-left:-1px;
+    border: black 2px solid;}
+
+/* footer */
+footer {color: white;
+     font-family: 'apple_kid';
+     font-size: 2em;
+        position: absolute;
+        top: 80%;
+        text-align: center;
+        margin-left: 25%;
+        display: inline;
+        
+        }
+footer h3 {font-family: 'apple_kid';}
+
+.footer {text-align: center;
+    color: white;
+    background-color: none;
+    
+    height: auto;
+    position: absolute;
+    width: 100%;
+    margin-bottom: -100px;}
+
+    .social-footer li {display: inline-block;
+           list-style-type: none;
+           margin: .7em;
+          font-size: 18px;}
+    /* animated text */
+.black-square p{
+   width: 30em;
+  font-size: 50px;}
+
+footer a {
+    color: white;
+}
+/*text for welcome screeen */
+#lblWelcome { font-size: 72px;
+              font-family: 'name';
+             
+              color: white;
+              padding-left: 5px;
+              padding-right: 5px;
+}
+/*legend in navigation */
+legend {
+    
+    margin-bottom: -20px;
+    border: none;
+    padding: -10px;
+}
+
+fieldset {
+    margin-left: -10px;
+}
+
+.nav li {
+    margin-left: -20px;
+    text-align: center;
+}
+
+.navigation {background-color: black;
+             border: none;
+}
+.navigation:hover {color: white;
+                    background-color: #7527df;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+}

@@ -1,0 +1,271 @@
+﻿/* custom fonts*/
+
+@font-face {
+  font-family: 'apple_kid';
+  src: 
+       url('../fonts/apple_kid.woff') format('woff'), 
+       url('../fonts/apple_kid.ttf')  format('truetype');   
+}
+
+@font-face {
+  font-family: 'fourside';
+  src: 
+       url('../fonts/fourside.woff') format('woff'), 
+       url('../fonts/fourside.ttf')  format('truetype');   
+}
+
+@font-face {
+  font-family: 'twoson';
+  src: 
+       url('../fonts/twoson.woff') format('woff'), 
+       url('../fonts/twoson.ttf')  format('truetype');   
+}
+
+
+h1 { 
+    padding: 0;
+    margin-bottom: .25em;
+}
+/* list of the cart items*/
+#lstCart { 
+    font-family: 'apple_kid';
+    font-size: 34px;
+    float: left;
+    background-color: black;
+   width: 700px;
+   height: 500px;
+    color: white;
+   border: 10px white ridge; 
+   border-radius: 15px;
+    
+    padding: 10px;
+}
+
+/*black square that contains the form */
+#txtData {font-family: 'apple_kid';
+    font-size: 34px;
+    float: left;
+    background-color: black;
+   width: 700px;
+   height: 500px;
+    color: white;
+   border: 10px white ridge; 
+   border-radius: 15px;
+    
+    padding: 10px;
+}
+
+.content { background-image: none;
+    
+  
+}
+
+/* fullscreen background image centered*/
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+/*message that reads user name if in cookie */
+.encounter  { background-color: black;
+              width: 700px;
+              border: 10px white ridge;
+              border-radius: 15px;
+}
+
+/* image of hotel manager*/
+.hotel-man { position: absolute;
+             top: 30px;
+             left: 725px;
+             z-index: 1;
+             width: 400px;
+             height: 400px;
+}
+/*the total price field */
+.total {
+    position: relative;
+    top:600px;
+    left: 725px;
+}
+
+/* purple square which lists total price and quantity*/
+.purple-square {background-image: url(../Images/bg2.bmp);
+                color: black;
+                font-family: 'apple_kid';
+                font-size: 2em;
+                border: ridge 10px white;
+                width: 50%;
+                margin: 0 auto;
+                padding: 25px;
+             border-radius: 15px !important;
+            text-align: center;}
+
+.purple-square {
+    position: absolute;
+    top: 400px;
+    left: 800px;
+    width: 256px;
+    height: 256px;
+} 
+
+
+.purple-square td { display: inline;
+                   text-align: left;
+                    color: white;
+                    font-size: 28px;
+                   
+}
+.purple-square a{color: white;
+                text-decoration: none;
+                font-size: 36px;
+}
+
+.purple-square a:hover{color: white;
+                    background-color: #7527df;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    }
+
+/* the formating for the purple square's text */
+.cart-text {font-family: 'fourside';}
+
+.cart-number {font-family: 'apple_kid';
+    color: black !important; 
+    background-color: white; 
+    width: 50px;
+    margin-left:-1px;
+    border: black 2px solid;}
+
+/* the animated text */
+
+.encounter p{
+   margin-left: 20px;
+  font-size: 50px;
+  background-color:none;
+             color: white;
+             
+             font-family: 'apple_kid';
+  white-space: nowrap;
+  overflow: hidden;
+ width: 500px;
+  animation: type 10s steps(70, end);
+}
+
+.encounter p:nth-child(2){
+  animation: type2 8s steps(70, end);
+}
+
+
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100%; } 
+} 
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+::selection{
+  background: black;
+}
+
+/* The style for messages that are displayed below the buttons */
+#lblMessage {
+    color: red;
+    
+    font-size: 2em;
+   
+    position: absolute;
+    top: 90%;
+    background-color: black;
+    font-family: 'twoson';
+    font-size: 1em;
+    margin-left: 20px;
+   
+}
+
+.button { background-color:#7527df;
+          color: white;
+           border-radius: 45px;
+           font-size: 85%;
+           width: 50px;height: 50px;
+}
+
+.button2 { background-color:#9f92d7;
+          color: white;
+           border-radius: 45px;
+           font-size: 85%;
+           width: 50px;height: 50px;
+}
+
+
+table {
+    width: 50px;
+    height: 50px;
+}
+/* format for the controller table*/
+.controller {
+    clear: both;
+    background-color: #656275;
+    text-align: left;
+    border-radius: 100px;
+    position: absolute;
+    left: 50%;
+   top: 665px;
+   z-index: 1;
+   
+}
+
+.hint {
+     
+    
+    text-align: left;
+    
+    height: 200px;
+    width: 200px;
+    
+    font-size: 2em;
+   
+   
+}
+
+ .hint li { margin: 5px;
+            margin-top: -7px;
+    }
+ .firstName {
+    display: none !important;
+}
+
+
+.cartName {
+    display: inline !important;
+}
+
+
+.navigation {background-color: black;
+             border: none;
+}
+.navigation:hover {color: white;
+                    background-color: #7527df;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+}

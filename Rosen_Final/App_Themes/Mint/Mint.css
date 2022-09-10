@@ -1,0 +1,166 @@
+﻿/* the styles for the skins */
+
+
+footer a {
+    color: #f5f5bc;
+}
+
+.footer {text-align: center;
+    color:#f5f5bc;
+    background-color: none;
+    
+    height: auto;
+    position: absolute;
+    width: 100%;
+    margin-bottom: -100px;}
+
+footer { color: #f5f5bc;
+}
+
+.cart-number {
+    color: #290829; 
+    background-color: #f5f5bc;
+    
+   
+    border: #290829 2px solid;}
+
+
+
+
+.black-square {background-color: #290829;
+                color: #f5f5bc;
+            
+   
+                border: ridge 10px #6bd6bd;
+                
+              
+             
+             border-radius: 15px;
+            text-align: center;}
+.black-square li {list-style-type: none;
+                    
+                    color: #f5f5bc;
+
+}
+.black-square a{color: #f5f5bc;
+                text-decoration: none;}
+
+.black-square a:hover{color: #f5f5bc;
+                    background-color: #7527df;
+                  
+                    }
+
+
+
+.purple-square {background-image: url(Images/bg.bmp);
+                color: #290829;
+               
+                border: ridge 10px #6bd6bd;
+              
+             border-radius: 15px !important;
+           }
+
+
+
+
+.purple-square td { 
+                    color: #f5f5bc;
+                  
+                   
+}
+.purple-square a{color: #f5f5bc;
+              
+}
+
+.purple-square a:hover{color: #f5f5bc;
+                    background-color: #7527df;
+              
+                    }
+
+
+#lstCart { 
+
+   background-color: #290829;
+
+    color: #f5f5bc;
+   border: 10px #6bd6bd ridge; 
+   border-radius: 15px;
+ 
+}
+
+.encounter  { background-color: #290829;
+            
+              border: 10px #6bd6bd ridge;
+              border-radius: 15px;
+}
+
+
+.encounter p{
+ 
+  background-color:none;
+             color: #f5f5bc;
+
+}
+
+
+
+
+.button2 { background-color:#9f92d7;
+          color: white;
+           border-radius: 45px;
+          
+}
+
+
+.controller {
+
+    background-color: #656275;
+
+   
+}
+
+body {  background-image: url(Images/bg.bmp);
+        }
+
+h2 {color:  #f5f5bc;
+       
+       
+}
+
+.register { color:  #f5f5bc;
+}
+
+.entry{
+    
+     background-color: #290829;
+    color: #f5f5bc;
+}
+
+
+.button {
+        border-radius: 0;
+    background-color:  #290829 !important;
+            color: #f5f5bc !important;
+             border: none;
+}
+.button:hover {color:#f5f5bc;
+                    background-color: #7527df !important;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+}
+
+.button { background-color:#7527df;
+          color: white;
+           border-radius: 45px;
+      
+}
+
+#txtData {
+    background-color: #290829;
+  
+    color: #f5f5bc;
+    border: 10px #6bd6bd ridge;
+   border-radius: 15px;
+    
+    
+}

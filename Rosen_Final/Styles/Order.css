@@ -1,0 +1,206 @@
+﻿
+/*custom fonts */
+@font-face {
+  font-family: 'apple_kid';
+  src: 
+       url('../fonts/apple_kid.woff') format('woff'), 
+       url('../fonts/apple_kid.ttf')  format('truetype');   
+}
+
+@font-face {
+  font-family: 'fourside';
+  src: 
+       url('../fonts/fourside.woff') format('woff'), 
+       url('../fonts/fourside.ttf')  format('truetype');   
+}
+
+@font-face {
+  font-family: 'twoson';
+  src: 
+       url('../fonts/twoson.woff') format('woff'), 
+       url('../fonts/twoson.ttf')  format('truetype');   
+}
+
+body {
+    background-image: url('../Images/room-select.png');
+}
+
+.content { top: 1px;
+           }
+
+
+
+h1 { 
+    padding: 0;
+    margin-bottom: .25em;
+}
+/* Dropdown list*/
+#ddlRooms {
+    width: 610px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-left: -520px;
+    font-family: 'twoson'; 
+    font-size: .5em;
+    background-color:#7527df;
+    z-index: 6;
+}
+
+
+/*database info */
+
+#RoomData {
+    padding: 1em 0;
+    width: 400px;
+   font-family: 'apple_kid'; 
+text-align: left;
+margin-left: 2%;
+margin-right: 10%;
+
+}
+
+
+/* room price*/
+
+ #lblRoomPrice {
+    display: block;
+    font-size: 150%;
+    font-weight: bold;
+   
+}
+ /* room descriptions */
+ #lblShortDescription, #lblLongDescription {
+    display: block;
+    margin-bottom: .5em;
+    width: 200px;
+    font-size: 1.5em;
+    text-align: justify;
+   font-size: 90%;
+}
+ /*hide room name since it is shown in the drop down list */
+ #lblName { 
+           display: none;
+           
+}
+
+#lblLongDescription {
+    margin-left: -20px;
+}
+
+#lblShortDescription {text-align: center; width: 500px; margin-top: -20px;
+}
+
+
+
+#lblRoomPrice {
+    margin-bottom: 2em;
+}
+#txtQuantity {
+    width: 2em;
+    background-color: black;
+    color: white;
+}
+
+
+.validator {
+   
+       color: red;
+    
+    font-size: 2em;
+   
+    position: absolute;
+    top: 95%;
+    background-color: black;
+    font-family: 'twoson';
+    font-size: 1em;
+    margin-left: 20px;
+
+}
+#btnAdd {
+    margin: 1em 0 0;
+}
+
+RangeValidator1 {
+   color: red;
+    
+    font-size: 2em;
+   
+    position: absolute;
+    top: 95%;
+    background-color: black;
+    font-family: 'twoson';
+    font-size: 1em;
+    margin-left: 20px;
+}
+
+.button { background-color:#7527df;
+          color: white;
+           border-radius: 45px;
+}
+
+/* image of room*/
+.hotel-image {
+   position: absolute;
+   left: 25%;
+  top: 30%;
+ 
+    
+}
+
+.input-buttons {
+    font-size: 80%;
+    margin-top: -60px;
+}
+
+.hint {display: none;}
+
+/* calendars*/
+#start_date {  position: absolute;
+    top: 10px;
+    margin-left: 200px;
+   
+    
+}
+
+#end_date {  position: absolute;
+     top: 315px;
+     margin-left: 200px;
+    
+      
+}
+
+#Calendar1 {
+    width: 200px;
+    height: 200px;
+    font-size: .75em;
+    position: absolute;
+    top: 75px;
+    left: 650px;
+    z-index: 1;
+    width: 300px;
+    height: 200px;
+ 
+ 
+}
+
+
+#Calendar2 { width: 200px; height: 200px;
+             font-size: .75em;
+             position: absolute;
+             top: 380px;
+             left:650px;
+             z-index: 1;
+             width: 300px;
+             height: 200px;
+        
+}
+/* location of user's avatar */
+#character {position: absolute;
+            top: 700px;
+            left: 1000px;
+           
+}
+
+.hint2 { display: none;
+}

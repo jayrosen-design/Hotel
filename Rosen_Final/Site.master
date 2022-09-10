@@ -1,0 +1,100 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="Site" ClientIDMode="Static" %>
+
+<!DOCTYPE html>
+<!--
+   COP2552 001: Object Oriented Programming 2
+   Final Project
+   Hotel
+
+   Author: Jay Rosen
+   Date: 12/10/2015
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Hotel</title>
+      <!-- style sheets-->
+    <link href="Styles/bootstrap.min.css" rel="stylesheet"/>
+    <link href="Styles/agency.css" rel="stylesheet"/>
+    <link href="Styles/Master.css" rel="stylesheet"/>
+    <asp:ContentPlaceHolder id="headPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+
+      <!-- javascript to play when buttons are clicked -->
+    <script>
+        var bleep = new Audio();
+        bleep.src = 'SFX/attack1.wav';
+
+        var psilearn = new Audio();
+        psilearn.src = 'SFX/psilearn.wav';
+</script>
+
+</head>
+<body>
+      <form id="form1" runat="server">
+       <div id="nav-block">
+            <!-- left column navigation for most pages on website-->
+            <div class="nav">
+             <!--display logo image which is also a button to go back to Default homepage -->
+                <asp:ImageButton ID="Logo" AlternateText="Hotel" ImageUrl="~/Images/logo_white.gif" OnClick="Home_Click" onMouseDown="psilearn.play()" runat="server" style="margin-left: 30px; margin-top: 50px;"/>
+               
+              <!--black square with navigation links -->
+             <fieldset class="black-square site-nav">
+                   <!-- Register button will change name to user when user registers name into cookie-->
+    <legend><asp:HyperLink ID="HyperLink1" NavigateUrl="~/CheckOut.aspx" onMouseDown="bleep.play()" runat="server"><asp:Label ID="lblWelcome" runat="server"></asp:Label></asp:HyperLink></legend>
+                  <ul>
+                        <!--button to go to Default.aspx -->
+                     <li> <asp:Button ID="Home" runat="server" Text="Welcome" OnClick="Home_Click" onMouseDown="bleep.play()" CssClass="navigation"  /></li>
+                    <!-- button to go About.aspx -->
+                      <li> <asp:Button ID="About" runat="server" Text="About" OnClick="About_Click" onMouseDown="bleep.play()" CssClass="navigation"  /></li>
+                      <!-- button to go to Order.aspx -->
+                      <li><asp:Button ID="Order" runat="server" Text="Hotel & Resorts" OnClick="Order_Click" onMouseDown="bleep.play()" CssClass="navigation" /></li>
+                     <!-- button to go Cart.aspx -->
+                       <li><asp:Button ID="Cart" runat="server" Text="Check Out" OnClick="Cart_Click" onMouseDown="bleep.play()" cssClass="navigation" /></li>
+                        <!-- button to go to Editor.aspx-->
+                       <li><asp:Button ID="Editor" runat="server" Text="Status" OnClick="Editor_Click" onMouseDown="bleep.play()" cssClass="navigation" /></li>
+                  </ul>
+                 </fieldset>
+                  
+                  <!-- Display what the videogame controller buttons do on Cart page-->
+                    <ul class="black-square hint" style="margin-top: 50px;">
+                     <li> X : Remove Item</li>
+                     <li> Y : Empty Cart</li>
+                     <li> A : Check Out </li>
+                     <li> B : Run Away </li>
+                    </ul>
+                  
+                <!--Display what the videogame controller buttons do on final CheckOut3 page -->
+              <ul class="black-square hint2" style="margin-top: 50px;">
+                    
+                     <li> A : Confirm </li>
+                     <li> B : Run Away </li>
+                    </ul>
+
+        </div>
+    </div>
+    <section>
+       
+            <asp:ContentPlaceHolder id="formPlaceHolder" runat="server">        
+            </asp:ContentPlaceHolder> 
+                
+    </section>   
+
+            <!-- display copyright information in footer with external links to Nintendo website and Jay Rosen's website-->
+          <footer class="footer" style="margin-left: 1%; top: 90%; position: fixed; z-index:3"> 
+               <div class="row">
+      <div class="col-md-4 ">
+                    <h3 style="font-size: 16px; text-align: left;">This website was created for a school project, <br />and is not affiliated with Nintendo, Shigesato Itoi, Ape Inc. or any other companies.</h3>
+                </div>
+                <div class="col-md-4 ">
+                    <h3><a href="http://earthbound.nintendo.com/" target="_blank">"Earthbound" &copy; 1994 Nintendo</a></h3>
+                </div>
+                <div class="col-md-4 ">
+                    <h3><a href="http://jayrosen.design" target="_blank">Web Design &copy; 2015 Jay Rosen </a></h3>
+                </div>
+      </div>
+
+          </footer> 
+</form>
+</body>
+</html>

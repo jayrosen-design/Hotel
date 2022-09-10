@@ -1,0 +1,168 @@
+﻿body {
+}
+/* the styles for the skins */
+
+
+footer a {
+    color: #e3e1af;
+}
+
+.footer {text-align: center;
+    color:#e3e1af;
+    background-color: none;
+    
+    height: auto;
+    position: absolute;
+    width: 100%;
+    margin-bottom: -100px;}
+
+footer { color: #e3e1af;
+}
+
+.cart-number {
+    color: #280828; 
+    background-color: #e3e1af;
+    
+   
+    border: #280828 2px solid;}
+
+
+
+
+.black-square {background-color: #280828;
+                color: #e3e1af;
+            
+   
+                border: ridge 10px #e0a050;
+                
+              
+             
+             border-radius: 15px;
+            text-align: center;}
+.black-square li {list-style-type: none;
+                    
+                    color: #e3e1af;
+
+}
+.black-square a{color: #e3e1af;
+                text-decoration: none;}
+
+.black-square a:hover{color: #e3e1af;
+                    background-color: #d89030;
+                  
+                    }
+
+
+
+.purple-square {background-image: url(Images/bg3.bmp);
+                color: #280828;
+               
+                border: ridge 10px #e0a050;
+              
+             border-radius: 15px !important;
+           }
+
+
+
+
+.purple-square td { 
+                    color: #e3e1af;
+                  
+                   
+}
+.purple-square a{color: #e3e1af;
+              
+}
+
+.purple-square a:hover{color: #e3e1af;
+                    background-color: #d89030;
+              
+                    }
+
+
+#lstCart { 
+
+   background-color: #280828;
+
+    color: #e3e1af;
+   border: 10px #e0a050 ridge; 
+   border-radius: 15px;
+ 
+}
+
+.encounter  { background-color: #280828;
+            
+              border: 10px #e0a050 ridge;
+              border-radius: 15px;
+}
+
+
+.encounter p{
+ 
+  background-color:none;
+             color: #e3e1af;
+
+}
+
+
+
+
+.button2 { background-color:#9f92d7;
+          color: white;
+           border-radius: 45px;
+          
+}
+
+
+.controller {
+
+    background-color: #656275;
+
+   
+}
+
+body {  background-image: url(Images/bg3.bmp);
+        }
+
+h2 {color:  #e3e1af;
+       
+       
+}
+
+.register { color:  #e3e1af;
+}
+
+.entry{
+    
+     background-color: #280828;
+    color: #e3e1af;
+}
+
+
+.button {
+        border-radius: 0;
+    background-color:  #280828 !important;
+            color: #e3e1af !important;
+             border: none;
+}
+.button:hover {color:#e3e1af;
+                    background-color: #d89030 !important;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+}
+
+.button { background-color:#d89030;
+          color: white;
+           border-radius: 45px;
+      
+}
+
+#txtData {
+    background-color: #280828;
+  
+    color: #e3e1af;
+    border: 10px #e0a050 ridge;
+   border-radius: 15px;
+    
+    
+}

@@ -1,0 +1,96 @@
+﻿body {  background-image: url(../Images/cookie-bg.png);
+        }
+/* fullscreen background image centered */
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+/*location of the user's avatar */
+#character {position: absolute;
+            top: 560px;
+            left: 1360px;
+           
+}
+
+/* animated text*/
+.black-square p{
+   width: 30em;
+  font-size: 50px;
+  
+  white-space: nowrap;
+  overflow: hidden;
+ width: 30em;
+  animation: type 10s steps(60, end);
+}
+
+.black-square p:nth-child(2){
+  animation: type2 8s steps(60, end);
+}
+
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100%; } 
+} 
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+::selection{
+  background: black;
+}
+
+.hint {
+    display: none;
+}
+
+.site-nav {
+    display: none;
+}
+
+footer {
+    display: inline !important;
+}
+
+
+
+.button { background-color:#7527df;
+          color: white;
+           border-radius: 45px;
+           position: absolute;
+           bottom: 10px;
+           left: 480px;
+}
+
+
+    .button a:hover {
+        background-color: blue;
+        color: white;
+    }
+
+
+#btnNextPage {z-index: 5;
+}
+
+.hint2 { display: none;
+}
